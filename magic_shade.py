@@ -26,7 +26,7 @@ def maya_main_window():
 # ----------------------------------------------------------------------------------------------------------------------
 class MainUI(QMainWindow):
     # Set up file references
-    icon_dir = os.path.expanduser("~/maya/scripts/magic-shade/icons")
+    icon_dir = os.path.expanduser("~/maya/scripts/magic-shade/resources/icons")
     spellbook_dir = os.path.expanduser("~/maya/scripts/magic-shade/spellbooks")
     pref_path = os.path.expanduser("~/maya/scripts/magic-shade/prefs")
     last_file_pref = "last_magicshade_spellbook"
