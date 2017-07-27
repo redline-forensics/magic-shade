@@ -25,6 +25,7 @@ class MainUI(QDialog):
     icon_dir = os.path.expanduser("~/maya/scripts/magic-shade/icons")
     spellbook_dir = os.path.expanduser("~/maya/scripts/magic-shade/spellbooks")
     pref_path = os.path.expanduser("~/maya/scripts/magic-shade/prefs")
+    arnold_studio_path = os.path.expanduser("~/maya/scripts/magic-shade/Arnold_Studio_V3.mb")
     last_file_pref = "last_vehicular_spellbook"
     vehicle_library_dir = "//server1/DV_Templates/Media_Templates/3D Vehicle Library/Vehicles"
 
@@ -162,7 +163,7 @@ class MainUI(QDialog):
 
     def load_studio(self):
         cmds.file(new=True, force=True)
-        cmds.file("C:/Users/Crohlfing/Documents/maya/2017/scripts/magicshade/Arnold_Studio_V3.mb", open=True)
+        cmds.file(self.arnold_studio_path, open=True)
 
     def choose_vehicle(self):
         file_path = QFileDialog.getOpenFileName(None, "", self.vehicle_library_dir,
