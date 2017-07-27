@@ -33,7 +33,7 @@
 7. Name the script (e.g. "Magic Shade")
 8. (Optional) To install bulk Hum3D utility script, repeat steps 5-7 for ```\Documents\maya\scripts\vehicular.py```
 
-
+<br>
 ---
 
 
