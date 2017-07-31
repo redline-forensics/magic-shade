@@ -33,6 +33,17 @@
 7. Name the script (e.g. "Magic Shade")
 8. (Optional) To install bulk Hum3D utility script, repeat steps 5-7 for ```\Documents\maya\scripts\vehicular.py```
 
+## Usage
+
+1. Start Magic Shade from your shelf button
+2. Add a shader replacement ("spell") by clicking the green "+" button on the right
+3. Select the shader to replace from the drop-down box on the left
+   * You can select objects from this box by choosing "Object" from the Type drop-down box
+4. Select the shader to apply from the drop-down box on the right
+   * Both drop-down boxes can be edited manually. Add a "*" as a wildcard
+5. Apply all spells by clicking Cast - Cast All Spells
+6. Save your spells to a spellbook file for future use by clicking the save button
+7. If new shaders are added to your scene, click File - Refresh Shaders to make them show up in the drop-down boxes
 
 ---
 
