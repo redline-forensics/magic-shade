@@ -24,7 +24,7 @@
 
 1. Clone or download repository
    * Clone: ```git clone https://github.com/redline-forensics/magic-shade.git```
-   * Download: <a href="https://github.com/redline-forensics/magic-shade/archive/master.zip">master.zip</a>
+   * Download: <a href="https://github.com/redline-forensics/magic-shade/archive/master.zip">master.zip</a> and unzip
 2. In ```\Documents\maya\scripts``` create a new folder ```magic-shade```
 3. Place repository contents (i.e. ```\icons```, ```magic_shade.py```, etc.) inside newly-created ```magic-shade``` folder
 4. In Maya, open the Script Editor (Windows - General Editors - Script Editor)
