@@ -28,7 +28,7 @@
 2. In ```\Documents\maya\scripts``` create a new folder ```magic-shade```
 3. Place repository contents (```\resources```, ```magic_shade.py```, etc.) inside newly-created ```magic-shade``` folder
 4. In Maya, open the Script Editor (Windows - General Editors - Script Editor)
-5. Open ```\Documents\maya\scripts\magic_shade.py``` in the Script Editor (File - Open Script...)
+5. Open ```\Documents\maya\scripts\magic-shade\magic_shade.py``` in the Script Editor (File - Open Script...)
 6. Save the script to the shelf (File - Save Script to Shelf...)
 7. Name the script (e.g. "Magic Shade")
 8. (Optional) To install bulk Hum3D utility script, repeat steps 5-7 for ```\Documents\maya\scripts\vehicular.py```
